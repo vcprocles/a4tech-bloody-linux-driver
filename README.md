@@ -14,6 +14,16 @@ cmake .
 make
 ```
 
+## openSUSE
+```
+zypper in gcc-c++ cmake libusb-1_0-devel
+git clone https://github.com/maxmati/a4tech-bloody-linux-driver
+cd ./a4tech-bloody-linux-driver
+cmake .
+make
+```
+
+
 ## Add new bloody devices
 
 1. Get USB PID of device:
